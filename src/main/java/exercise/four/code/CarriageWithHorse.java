@@ -1,6 +1,7 @@
-package exercise.five;
+package exercise.four.code;
 
 public class CarriageWithHorse {
+
   private int sits;
   private int busySits;
   private String placeHorseComesFrom;
@@ -14,7 +15,7 @@ public class CarriageWithHorse {
   }
 
   public void status() {
-    System.out.println("free: " + (sits - busySits > 0 ? "true": "false"));
+    System.out.println("free: " + (sits - busySits > 0 ? "true" : "false"));
     System.out.println("name: " + name);
     System.out.println("horse is from: " + placeHorseComesFrom);
   }

@@ -1,6 +1,7 @@
-package exercise.five;
+package exercise.four.code;
 
 public class HorseWithSaddle {
+
   private boolean isCarryingSomeone;
   private String horseName;
   private String CountryOfOrigin;
@@ -12,6 +13,7 @@ public class HorseWithSaddle {
   }
 
   public void info() {
-    System.out.println(isCarryingSomeone + " busy, name: " + horseName + " from " + CountryOfOrigin);
+    System.out.println(
+        isCarryingSomeone + " busy, name: " + horseName + " from " + CountryOfOrigin);
   }
 }

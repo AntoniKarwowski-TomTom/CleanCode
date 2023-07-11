@@ -1,6 +1,7 @@
-package exercise.five;
+package exercise.four.code;
 
 public class DogWithSleigh {
+
   private boolean emptyFrontSit;
   private boolean emptyBackSit;
 
@@ -27,7 +28,7 @@ public class DogWithSleigh {
   public String describe() {
     return String.format("Sleigh with a dog [%s] at this moment it's [%s]",
         dogName,
-        isEmpty()? "empty": "occupied"
+        isEmpty() ? "empty" : "occupied"
     );
   }
 }

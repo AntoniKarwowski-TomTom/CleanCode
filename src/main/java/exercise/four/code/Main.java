@@ -1,10 +1,12 @@
-package exercise.five;
+package exercise.four.code;
 
-import java.util.List;
+public class Main {
 
-public class Classes {
+  /*
+   refactor those classes (+ possibly add some inheritance / composition) using OOP principles
+   */
+
   public static void main(String[] args) {
-    // todo refactor those classes (+ possibly interfaces) using OOP principles
     new CarriageWithHorse(3, 2, "Spain", "SomeHorseName").status();
     new HorseWithSaddle(true, "DifferentHorseName", "Germany").info();
     System.out.println(DogWithSleigh.build(true, false, "Charlie", "England").describe());
