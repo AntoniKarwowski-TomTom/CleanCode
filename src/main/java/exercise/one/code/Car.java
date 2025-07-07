@@ -6,7 +6,7 @@ public class Car {
    * refactor this class (rename everything You want, reorganize code, remove unnecessary parts)
    */
 
-  private int engineCapacity;
+  private int engine_capacity;
   private short productionYear;
   private String brand;
   private String model;
@@ -16,7 +16,7 @@ public class Car {
     boolean e;
     e = false;
 
-    if (engineCapacity > 3000) {
+    if (engine_capacity > 3000) {
       if (productionYear > 2015) {
         e = true;
       }
@@ -25,7 +25,7 @@ public class Car {
   }
 
   public String getCarType() {
-    if (engineCapacity < 1500) {
+    if (engine_capacity < 1500) {
       return "slow";
     } else {
       return "fast";
